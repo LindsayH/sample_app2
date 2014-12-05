@@ -29,15 +29,13 @@ GEM
       tzinfo (~> 1.1)
     ansi (1.4.3)
     arel (5.0.1.20140414130214)
-
+    bcrypt (3.1.7)
     better_errors (2.0.0)
       coderay (>= 1.0.0)
       erubis (>= 2.6.6)
       rack (>= 0.9.0)
-    bcrypt (3.1.7)
     bootstrap-sass (3.2.0.0)
       sass (~> 3.2)
-
     builder (3.2.2)
     byebug (3.5.1)
       columnize (~> 0.8)
@@ -172,12 +170,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-<<<<<<< HEAD
-  better_errors
-=======
   bcrypt (= 3.1.7)
+  better_errors
   bootstrap-sass (>= 3.2.0.0)
->>>>>>> users
   coffee-rails (~> 4.0.0)
   guard-minitest
   jbuilder (~> 2.0)
@@ -186,7 +181,7 @@ DEPENDENCIES
   minitest-reporters
   pg
   pry-byebug
-  rails
+  rails (= 4.1.8)
   rails_12factor (= 0.0.2)
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
